@@ -1,0 +1,125 @@
+.body-div-dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 96vh;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    color: #1f1f1f;
+    background-color: #ffffff;
+    transition: 1s;
+}
+
+
+
+
+
+.kısa-bos-dark,
+.kısa-button-dark {
+    width: 30%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+.dark-mode-dark {
+    width: 35px;
+    height: 16px;
+    background-color: #FC3C3C;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.kısa-yazi-dark {
+    width: 40%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+
+
+.dark-mode-dark .sun-button-dark {
+    background-color: #ffffff;
+    color: #1b1b1b;
+    border: none;
+    outline: none;
+    height: 16px;
+    width: 35px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.kısa-bilgi-dark {
+    height: 4vh;
+    width: 100%;
+    background-color: #1b1b1b;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 10px;
+    color: #ffffff;
+    transition: 1s;
+
+}
+
+.navigation-dark {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation__link-dark {
+    position: relative;
+    display: block;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 1.5;
+    text-decoration: none;
+    color: transparent;
+    -webkit-text-stroke: 1px #1b1b1b;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.navigation__link-dark:hover {
+    color: #1b1b1b;
+    -webkit-text-stroke: 1px #ffffff;
+    transition: 0.25s;
+}
+
+.navigation__link-dark:hover::before {
+    transform: translate(7px, -7px);
+    color: #FC3C3C;
+    -webkit-text-stroke: 1px #1b1b1b;
+}
+
+.navigation__link-dark:hover::after {
+    transform: translate(14px, -14px);
+    color: #00ADB5;
+    -webkit-text-stroke: 1px #1b1b1b;
+}
+
+.navigation__link-dark::before,
+.navigation__link-dark::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px transparent;
+}
