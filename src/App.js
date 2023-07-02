@@ -22,16 +22,16 @@ function App() {
       <div className='body-div'>
         <ul class="navigation">
       <li class="navigation__item">
-        <a class="navigation__link" href="#" data-text="Home">Home</a>
+        <a class="navigation__link" href="/home" data-text="Home">Home</a>
       </li>
       <li class="navigation__item">
-        <a class="navigation__link" href="#" data-text="About">About</a> 
+        <a class="navigation__link" href="/about" data-text="About">About</a> 
       </li>
       <li class="navigation__item">
-        <a class="navigation__link" href="#" data-text="Portfolio">Portfolio</a>  
+        <a class="navigation__link" href="/portfolio" data-text="Portfolio">Portfolio</a>  
       </li>
       <li class="navigation__item">
-        <a class="navigation__link" href="#" data-text="Contact">Contact</a> 
+        <a class="navigation__link" href="/contact" data-text="Contact">Contact</a> 
       </li>
     </ul></div>
     <div className='kısa-bilgi'>
@@ -62,16 +62,16 @@ function App() {
       <div className='body-div-dark'>
         <ul class="navigation-dark">
       <li class="navigation__item-dark">
-        <a class="navigation__link-dark" href="#" data-text="Home">Home</a>
+        <a class="navigation__link-dark" href="/home" data-text="Home">Home</a>
       </li>
       <li class="navigation__item-dark">
-        <a class="navigation__link-dark" href="#" data-text="About">About</a> 
+        <a class="navigation__link-dark" href="/about" data-text="About">About</a> 
       </li>
       <li class="navigation__item-dark">
-        <a class="navigation__link-dark" href="#" data-text="Portfolio">Portfolio</a>  
+        <a class="navigation__link-dark" href="/portfolio" data-text="Portfolio">Portfolio</a>  
       </li>
       <li class="navigation__item-dark">
-        <a class="navigation__link-dark" href="#" data-text="Contact">Contact</a> 
+        <a class="navigation__link-dark" href="/contact" data-text="Contact">Contact</a> 
       </li>
     </ul></div>
     <div className='kısa-bilgi-dark'>
