@@ -125,7 +125,7 @@
     -webkit-text-stroke: 1px transparent;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
 
     .navigation__link {
         position: relative;
@@ -139,6 +139,40 @@
         -webkit-user-select: none;
         -moz-user-select: none;
         -ms-user-select: none;
+        user-select: none;
+    }
+
+    .kısa-bos,
+    .kısa-button {
+        width: 20%;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 40px;
+    }
+
+    .kısa-bilgi {
+        height: 4vh;
+        width: 100%;
+        background-color: #ffffff;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        font-size: 8px;
+        color: #1b1b1b;
+        transition: 1s;
+    
+    }
+
+    .kısa-yazi {
+        width: 60%;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         user-select: none;
     }
 
