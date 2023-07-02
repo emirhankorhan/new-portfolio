@@ -123,3 +123,56 @@
     transition: 0.5s;
     -webkit-text-stroke: 1px transparent;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .navigation__link-dark {
+        position: relative;
+        display: block;
+        font-weight: 900;
+        font-size: 4rem;
+        line-height: 1.5;
+        text-decoration: none;
+        color: transparent;
+        -webkit-text-stroke: 1px #1b1b1b;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .kısa-bos-dark,
+    .kısa-button-dark {
+        width: 20%;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 40px;
+    }
+
+    .kısa-bilgi-dark {
+        height: 4vh;
+        width: 100%;
+        background-color: #1b1b1b;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        font-size: 8px;
+        color: #ffffff;
+        transition: 1s;
+    
+    }
+
+    .kısa-yazi-dark {
+        width: 60%;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+    }
+
+}
