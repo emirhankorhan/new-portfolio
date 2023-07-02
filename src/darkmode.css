@@ -124,3 +124,22 @@
     transition: 0.5s;
     -webkit-text-stroke: 1px transparent;
 }
+
+@media only screen and (max-width: 600px){
+
+    .navigation__link {
+        position: relative;
+        display: block;
+        font-weight: 900;
+        font-size: 4rem;
+        line-height: 1.5;
+        text-decoration: none;
+        color: transparent;
+        -webkit-text-stroke: 1px #ffffff;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+}
