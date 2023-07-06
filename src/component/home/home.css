@@ -1,0 +1,273 @@
+.home-ana-div{
+    width: 100%;
+    height: 100vh;
+}
+
+.home-div{
+    width: 100%;
+    height: 96vh;
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.large-div{
+    width: 70%;
+    height: 20rem;
+    display: flex;
+}
+
+.img-div{
+    width: 30%;
+    height: 20rem;
+    background-image: url(MOSHED.gif);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-div{
+    width: 70%;
+    height: 20rem;
+    display: block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+}
+
+.baslik-text{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    color: white;
+}
+
+.text-text{
+    width: 100%;
+    height: 16rem;
+    font-size: 17px;
+    padding-top: 2rem;
+    color: white;
+}
+
+.fa-hand{
+    padding-left: 10px;
+    color: #FC3C3C;
+    font-size: 35px;
+}
+
+.fa-heart{
+    padding-left: 10px;
+    color: #00ADB5;
+    font-size: 35px;
+}
+
+
+
+.kısa-bos,
+.kısa-button {
+    width: 30%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+.dark-mode {
+    width: 35px;
+    height: 16px;
+    background-color: #FC3C3C;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.kısa-yazi {
+    width: 40%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.dark-mode .moon-button {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    height: 16px;
+    width: 35px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+
+
+.kısa-bilgi {
+    height: 4vh;
+    width: 100%;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 10px;
+    color: #1b1b1b;
+    transition: 1s;
+
+}
+
+@media only screen and (max-width: 1000px){
+    .img-div{
+        width: 40%;
+        height: 20rem;
+        background-image: url(MOSHED.gif);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .text-div{
+        width: 60%;
+        height: 20rem;
+        display: block;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+    }
+
+    .baslik-text{
+        width: 100%;
+        height: 4rem;
+        display: flex;
+        align-items: flex-end;
+        font-size: 18px;
+        color: white;
+    }
+    
+    .text-text{
+        width: 100%;
+        height: 16rem;
+        font-size: 14px;
+        padding-top: 2rem;
+        color: white;
+    }
+
+}
+
+@media only screen and (max-width: 760px){
+    .home-div{
+        width: 100%;
+        height: 96vh;
+        background-color: #1b1b1b;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .large-div{
+        width: 70%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-div{
+        width: 100%;
+        height: 35vh;
+        background-image: url(MOSHED.gif);
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .text-div{
+        width: 100%;
+        height: 50vh;
+        display: block;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+    }
+    
+    .baslik-text{
+        width: 100%;
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        color: white;
+    }
+    
+    .text-text{
+        width: 100%;
+        height: 16rem;
+        font-size: 14px;
+        padding-top: 2rem;
+        color: white;
+        text-align: justify;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+    .home-div{
+        width: 100%;
+        height: 96vh;
+        background-color: #1b1b1b;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .large-div{
+        width: 70%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-div{
+        width: 100%;
+        height: 35vh;
+        background-image: url(MOSHED.gif);
+        background-size: 70%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .text-div{
+        width: 100%;
+        height: 50vh;
+        display: block;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+    }
+    
+    .baslik-text{
+        width: 100%;
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        color: white;
+    }
+    
+    .text-text{
+        width: 100%;
+        height: 16rem;
+        font-size: 14px;
+        padding-top: 2rem;
+        color: white;
+        text-align: justify;
+    }
+
+}
